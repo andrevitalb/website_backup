@@ -7,6 +7,8 @@
 	require_once('PHPMailer/src/Exception.php');
 	require_once('PHPMailer/src/PHPMailer.php');
 	require_once('PHPMailer/src/SMTP.php');
+	
+	require_once('./secrets.php');
 
 	$bot = true;
 
@@ -87,8 +89,8 @@
 		$mail->Port = 587;
 		$mail->SMTPAuth = true;
 		$mail->SMTPSecure = 'tls';
-		$mail->Username = 's.andre.vital@gmail.com';
-		$mail->Password = 'LightersBME1.-';
+		$mail->Username = $gmailMail;
+		$mail->Password = $gmailPwd;
 
 		$mail->SetFrom('s.andre.vital@gmail.com', 'Contacto Página Web');
 		$mail->AddAddress($to);
