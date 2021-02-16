@@ -188,7 +188,7 @@ Intro
 ------------------*/
 
 .intro-social li a i { font-size: 3.3rem !important; }
-#about_me_btn i { font-size: 1.3rem !important; }
+#dev_port-btn i { font-size: 1.3rem !important; }
 
 @media (max-width: 650px){
 	.intro-social li a i { font-size: 2.4rem !important; }
@@ -269,7 +269,7 @@ Resume
 Portfolio
 ------------------*/
 
-#portfolio h2 {
+.portfolio h2 {
 	font-family: "poppins-semibold", serif;
     font-size: 3.6rem;
     color: #313131;

@@ -1369,18 +1369,18 @@ header .logo a {
 		Portfolio
 ----------------------*/
 
-#portfolio {
+.portfolio {
 	background: #FFFFFF;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
-#portfolio.first-port { padding-bottom: 0 !important; }
-#portfolio .folio-item {
+.portfolio#dev-port { padding-bottom: 0 !important; }
+.portfolio .folio-item {
 	padding: 0;
 	position: relative;
 	overflow: hidden;
 }
-#portfolio .folio-item img {
+.portfolio .folio-item img {
 	vertical-align: middle;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
@@ -1388,7 +1388,7 @@ header .logo a {
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 }
-#portfolio .overlay {
+.portfolio .overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1402,12 +1402,12 @@ header .logo a {
 	transition: all 0.5s ease-in-out;
 }
 
-#portfolio .folio-item-table {
+.portfolio .folio-item-table {
 	display: table;
 	width: 100%;
 	height: 100%;
 }
-#portfolio .folio-item-cell {
+.portfolio .folio-item-cell {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
@@ -1419,13 +1419,13 @@ header .logo a {
 	position: relative;
 	left: -100%;
 }
-#portfolio .folio-title {
+.portfolio .folio-title {
 	color: #FFFFFF;
 	font-size: 3.3rem;
 	padding: 0 3rem;
 	margin-bottom: 0;
 }
-#portfolio .folio-types {
+.portfolio .folio-types {
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
@@ -1434,22 +1434,22 @@ header .logo a {
 	letter-spacing: .1rem;
 	color: rgba(255, 255, 255, 0.6);
 }
-#portfolio .folio-item:hover .overlay { background: rgba(0, 0, 0, 0.8); }
-#portfolio .folio-item:hover .folio-item-cell { left: 0; }
-#portfolio .folio-item:hover img {
+.portfolio .folio-item:hover .overlay { background: rgba(0, 0, 0, 0.8); }
+.portfolio .folio-item:hover .folio-item-cell { left: 0; }
+.portfolio .folio-item:hover img {
 	-webkit-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
 }
 
 @media only screen and (max-width:1024px) {
-	#portfolio .folio-title { font-size: 3.1rem; }
+	.portfolio .folio-title { font-size: 3.1rem; }
 }
 @media only screen and (max-width:768px) {
-	#portfolio .folio-title { font-size: 2.5rem; }
+	.portfolio .folio-title { font-size: 2.5rem; }
 }
 @media only screen and (max-width:400px) {
-	#portfolio .folio-title { font-size: 2.2rem; }
+	.portfolio .folio-title { font-size: 2.2rem; }
 }
 
 .popup-modal {
